@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-color: #c7fffc;
+    /*background: url("<?php $a = array('foto1.jpg','foto2.jpg','foto3.jpg'); echo $a[array_rand($a)];?>");*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+h1, h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+}
+p{
+    color: black;
+    font-size: 20px;
+    /*-webkit-text-stroke: 1px black;*/
+    /*-webkit-text-fill-color: white;*/
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+}
+
+.login, .forgot, .registration, .container{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-flow: column;
+}
+.oneTask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.oneTask p {
+    color: black;
+    font-size: 20px;
+    flex: 1 0 75%;
+    text-align: left;
+    /*-webkit-text-stroke: 1px black;*/
+    /*-webkit-text-fill-color: white;*/
+}
+.todo, form{
+    display: flex;
+    flex-flow: column;
+    margin: 2px;
+    padding: 2px;
+    background: rgba(245, 40, 145, 0.2);
+    border: 1px solid #CCC;
+    border-radius: 1rem;
+}
+input{
+    margin: 2px;
+    padding: 2px;
+}
+#buttonLogout{
+    background: #ef6c6c;
+    border-radius: 10px;
+}
+#buttonSubmit{
+    background: #03f89f;
+    border-radius: 10px;
+}
+span{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn{
+    height: 30px;
+    width: 30px;
+    background-image: url('trash.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 5px;
+}
+
+
+/*.logout{*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    align-items: center;*/
+/*}*/
